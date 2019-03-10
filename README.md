@@ -1,9 +1,24 @@
-# Automized-Attendance-system-based-on-Facial-recognition
-This is a automated attendance system which generate attendance using Facial Recognition of students. The database is feed with the data of students in a class(this can be feed from the portal directly). The camera will detect each student in a class and update the attendance on a regular interval of time. To reduce the chance of proxy we are importing the analytics feature which will detect the movements and then update the attendance. 
-# Advantages:
-              # 1.This automation will help student to check thier attendance any time
-              # 2.Reduction of time used on attendance of class
-              # 3.No Proxy
-              # 4.The teachers presence will also be analysed in next stpes of the project.
-              # 5. No burden for computing and analysing the statistical data every time.
-              # 6. Individual Analytics will help student to improve.
+# facial-recognition-python-django
+Face detection and facial recognition along with recognized persons information fetched from database.
+
+General Languages and versions
+
+    •	Python version: 2.7.14
+    •	Django version: 1.11.9
+    •	OpenCV version: 3.4.0
+    •	Sklearn version: 0.19.1
+    •	Mysql Database
+
+Change mysql setting
+
+       go to settings.py under faceRecog folder.
+       change database configuration under DATABASES object.
+
+
+
+Run -
+
+    python manage.py runserver --nothreading –noreload
+
+Demo Video
+https://www.youtube.com/watch?v=p70srlZvyvQ&feature=youtu.be
